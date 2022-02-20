@@ -3,11 +3,11 @@ version: 5.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/tux.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/tux.svg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -225,24 +225,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Klaus Curde
         # Author title
-        author_title: Your title
+        author_title: DevOps/Software Engineer
         # Author's current location
-        location: Your location
+        location: Rochester, NY
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/tux.svg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/klauscurde
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/klauscurde
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
@@ -273,8 +273,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            CSH: csh.rit.edu
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
